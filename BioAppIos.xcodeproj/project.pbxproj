@@ -1,0 +1,614 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BE7358DB2CBB9CA400D5C652 /* BioAppIosApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE7358DA2CBB9CA400D5C652 /* BioAppIosApp.swift */; };
+		BE7358DD2CBB9CA400D5C652 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE7358DC2CBB9CA400D5C652 /* ContentView.swift */; };
+		BE7358DF2CBB9CA600D5C652 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BE7358DE2CBB9CA600D5C652 /* Assets.xcassets */; };
+		BE7358E32CBB9CA600D5C652 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BE7358E22CBB9CA600D5C652 /* Preview Assets.xcassets */; };
+		BE7358ED2CBB9CA600D5C652 /* BioAppIosTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE7358EC2CBB9CA600D5C652 /* BioAppIosTests.swift */; };
+		BE7358F72CBB9CA600D5C652 /* BioAppIosUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE7358F62CBB9CA600D5C652 /* BioAppIosUITests.swift */; };
+		BE7358F92CBB9CA600D5C652 /* BioAppIosUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE7358F82CBB9CA600D5C652 /* BioAppIosUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BE7358E92CBB9CA600D5C652 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BE7358CF2CBB9CA400D5C652 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BE7358D62CBB9CA400D5C652;
+			remoteInfo = BioAppIos;
+		};
+		BE7358F32CBB9CA600D5C652 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BE7358CF2CBB9CA400D5C652 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BE7358D62CBB9CA400D5C652;
+			remoteInfo = BioAppIos;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BE7358D72CBB9CA400D5C652 /* BioAppIos.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BioAppIos.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE7358DA2CBB9CA400D5C652 /* BioAppIosApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BioAppIosApp.swift; sourceTree = "<group>"; };
+		BE7358DC2CBB9CA400D5C652 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		BE7358DE2CBB9CA600D5C652 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BE7358E02CBB9CA600D5C652 /* BioAppIos.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = BioAppIos.entitlements; sourceTree = "<group>"; };
+		BE7358E22CBB9CA600D5C652 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		BE7358E82CBB9CA600D5C652 /* BioAppIosTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BioAppIosTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE7358EC2CBB9CA600D5C652 /* BioAppIosTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BioAppIosTests.swift; sourceTree = "<group>"; };
+		BE7358F22CBB9CA600D5C652 /* BioAppIosUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BioAppIosUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE7358F62CBB9CA600D5C652 /* BioAppIosUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BioAppIosUITests.swift; sourceTree = "<group>"; };
+		BE7358F82CBB9CA600D5C652 /* BioAppIosUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BioAppIosUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BE7358D42CBB9CA400D5C652 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE7358E52CBB9CA600D5C652 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE7358EF2CBB9CA600D5C652 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BE7358CE2CBB9CA400D5C652 = {
+			isa = PBXGroup;
+			children = (
+				BE7358D92CBB9CA400D5C652 /* BioAppIos */,
+				BE7358EB2CBB9CA600D5C652 /* BioAppIosTests */,
+				BE7358F52CBB9CA600D5C652 /* BioAppIosUITests */,
+				BE7358D82CBB9CA400D5C652 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BE7358D82CBB9CA400D5C652 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BE7358D72CBB9CA400D5C652 /* BioAppIos.app */,
+				BE7358E82CBB9CA600D5C652 /* BioAppIosTests.xctest */,
+				BE7358F22CBB9CA600D5C652 /* BioAppIosUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BE7358D92CBB9CA400D5C652 /* BioAppIos */ = {
+			isa = PBXGroup;
+			children = (
+				BE7358DA2CBB9CA400D5C652 /* BioAppIosApp.swift */,
+				BE7358DC2CBB9CA400D5C652 /* ContentView.swift */,
+				BE7358DE2CBB9CA600D5C652 /* Assets.xcassets */,
+				BE7358E02CBB9CA600D5C652 /* BioAppIos.entitlements */,
+				BE7358E12CBB9CA600D5C652 /* Preview Content */,
+			);
+			path = BioAppIos;
+			sourceTree = "<group>";
+		};
+		BE7358E12CBB9CA600D5C652 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				BE7358E22CBB9CA600D5C652 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		BE7358EB2CBB9CA600D5C652 /* BioAppIosTests */ = {
+			isa = PBXGroup;
+			children = (
+				BE7358EC2CBB9CA600D5C652 /* BioAppIosTests.swift */,
+			);
+			path = BioAppIosTests;
+			sourceTree = "<group>";
+		};
+		BE7358F52CBB9CA600D5C652 /* BioAppIosUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BE7358F62CBB9CA600D5C652 /* BioAppIosUITests.swift */,
+				BE7358F82CBB9CA600D5C652 /* BioAppIosUITestsLaunchTests.swift */,
+			);
+			path = BioAppIosUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BE7358D62CBB9CA400D5C652 /* BioAppIos */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BE7358FC2CBB9CA600D5C652 /* Build configuration list for PBXNativeTarget "BioAppIos" */;
+			buildPhases = (
+				BE7358D32CBB9CA400D5C652 /* Sources */,
+				BE7358D42CBB9CA400D5C652 /* Frameworks */,
+				BE7358D52CBB9CA400D5C652 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BioAppIos;
+			productName = BioAppIos;
+			productReference = BE7358D72CBB9CA400D5C652 /* BioAppIos.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BE7358E72CBB9CA600D5C652 /* BioAppIosTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BE7358FF2CBB9CA600D5C652 /* Build configuration list for PBXNativeTarget "BioAppIosTests" */;
+			buildPhases = (
+				BE7358E42CBB9CA600D5C652 /* Sources */,
+				BE7358E52CBB9CA600D5C652 /* Frameworks */,
+				BE7358E62CBB9CA600D5C652 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BE7358EA2CBB9CA600D5C652 /* PBXTargetDependency */,
+			);
+			name = BioAppIosTests;
+			productName = BioAppIosTests;
+			productReference = BE7358E82CBB9CA600D5C652 /* BioAppIosTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BE7358F12CBB9CA600D5C652 /* BioAppIosUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BE7359022CBB9CA600D5C652 /* Build configuration list for PBXNativeTarget "BioAppIosUITests" */;
+			buildPhases = (
+				BE7358EE2CBB9CA600D5C652 /* Sources */,
+				BE7358EF2CBB9CA600D5C652 /* Frameworks */,
+				BE7358F02CBB9CA600D5C652 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BE7358F42CBB9CA600D5C652 /* PBXTargetDependency */,
+			);
+			name = BioAppIosUITests;
+			productName = BioAppIosUITests;
+			productReference = BE7358F22CBB9CA600D5C652 /* BioAppIosUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BE7358CF2CBB9CA400D5C652 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					BE7358D62CBB9CA400D5C652 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					BE7358E72CBB9CA600D5C652 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = BE7358D62CBB9CA400D5C652;
+					};
+					BE7358F12CBB9CA600D5C652 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = BE7358D62CBB9CA400D5C652;
+					};
+				};
+			};
+			buildConfigurationList = BE7358D22CBB9CA400D5C652 /* Build configuration list for PBXProject "BioAppIos" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BE7358CE2CBB9CA400D5C652;
+			productRefGroup = BE7358D82CBB9CA400D5C652 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BE7358D62CBB9CA400D5C652 /* BioAppIos */,
+				BE7358E72CBB9CA600D5C652 /* BioAppIosTests */,
+				BE7358F12CBB9CA600D5C652 /* BioAppIosUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BE7358D52CBB9CA400D5C652 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE7358E32CBB9CA600D5C652 /* Preview Assets.xcassets in Resources */,
+				BE7358DF2CBB9CA600D5C652 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE7358E62CBB9CA600D5C652 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE7358F02CBB9CA600D5C652 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BE7358D32CBB9CA400D5C652 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE7358DD2CBB9CA400D5C652 /* ContentView.swift in Sources */,
+				BE7358DB2CBB9CA400D5C652 /* BioAppIosApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE7358E42CBB9CA600D5C652 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE7358ED2CBB9CA600D5C652 /* BioAppIosTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE7358EE2CBB9CA600D5C652 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE7358F72CBB9CA600D5C652 /* BioAppIosUITests.swift in Sources */,
+				BE7358F92CBB9CA600D5C652 /* BioAppIosUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BE7358EA2CBB9CA600D5C652 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BE7358D62CBB9CA400D5C652 /* BioAppIos */;
+			targetProxy = BE7358E92CBB9CA600D5C652 /* PBXContainerItemProxy */;
+		};
+		BE7358F42CBB9CA600D5C652 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BE7358D62CBB9CA400D5C652 /* BioAppIos */;
+			targetProxy = BE7358F32CBB9CA600D5C652 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		BE7358FA2CBB9CA600D5C652 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BE7358FB2CBB9CA600D5C652 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		BE7358FD2CBB9CA600D5C652 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = BioAppIos/BioAppIos.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"BioAppIos/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = RambleTOT.BioAppIos;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BE7358FE2CBB9CA600D5C652 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = BioAppIos/BioAppIos.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"BioAppIos/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = RambleTOT.BioAppIos;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		BE7359002CBB9CA600D5C652 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MACOSX_DEPLOYMENT_TARGET = 14.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = RambleTOT.BioAppIosTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BioAppIos.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/BioAppIos";
+			};
+			name = Debug;
+		};
+		BE7359012CBB9CA600D5C652 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MACOSX_DEPLOYMENT_TARGET = 14.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = RambleTOT.BioAppIosTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BioAppIos.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/BioAppIos";
+			};
+			name = Release;
+		};
+		BE7359032CBB9CA600D5C652 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MACOSX_DEPLOYMENT_TARGET = 14.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = RambleTOT.BioAppIosUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BioAppIos;
+			};
+			name = Debug;
+		};
+		BE7359042CBB9CA600D5C652 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MACOSX_DEPLOYMENT_TARGET = 14.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = RambleTOT.BioAppIosUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BioAppIos;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BE7358D22CBB9CA400D5C652 /* Build configuration list for PBXProject "BioAppIos" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE7358FA2CBB9CA600D5C652 /* Debug */,
+				BE7358FB2CBB9CA600D5C652 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BE7358FC2CBB9CA600D5C652 /* Build configuration list for PBXNativeTarget "BioAppIos" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE7358FD2CBB9CA600D5C652 /* Debug */,
+				BE7358FE2CBB9CA600D5C652 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BE7358FF2CBB9CA600D5C652 /* Build configuration list for PBXNativeTarget "BioAppIosTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE7359002CBB9CA600D5C652 /* Debug */,
+				BE7359012CBB9CA600D5C652 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BE7359022CBB9CA600D5C652 /* Build configuration list for PBXNativeTarget "BioAppIosUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE7359032CBB9CA600D5C652 /* Debug */,
+				BE7359042CBB9CA600D5C652 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BE7358CF2CBB9CA400D5C652 /* Project object */;
+}
